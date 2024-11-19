@@ -1270,8 +1270,7 @@ async function proxyURL(proxyURL, url) {
 function checkSUB(host) {
 	if ((!sub || sub == '') && (addresses.length + addressesapi.length + addressesnotls.length + addressesnotlsapi.length + addressescsv.length) == 0){
 		addresses = [
-			
-		        '127.0.0.1:1234#CFnat',
+			'127.0.0.1:1234#CFnat',
 			'visa.cn:443',
 			'singapore.com:8443',
 			'japan.com:2053',
